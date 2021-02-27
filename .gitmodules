@@ -1,0 +1,3 @@
+[submodule "firmata_test"]
+	path = firmata_test
+	url = https://github.com/TroikaTronix/firmata_test.git
