@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C243BA25E627A500AE0021 /* libwx_osx_cocoa.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2C2438525E6276300AE0021 /* libwx_osx_cocoa.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F2C243BC25E6296800AE0021 /* libwx_osx_cocoa.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2438525E6276300AE0021 /* libwx_osx_cocoa.dylib */; };
+		F2C243BD25E62ABE00AE0021 /* libwx_osx_cocoa_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2438725E6276300AE0021 /* libwx_osx_cocoa_static.a */; };
+		F2C2445225E6450800AE0021 /* serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2C2445025E6450700AE0021 /* serial.cpp */; };
+		F2C2445325E6450800AE0021 /* firmata_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2C2445125E6450800AE0021 /* firmata_test.cpp */; };
+		F2C2446E25E6460700AE0021 /* firmata_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2C2445125E6450800AE0021 /* firmata_test.cpp */; };
+		F2C2446F25E6460900AE0021 /* serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2C2445025E6450700AE0021 /* serial.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2C2438425E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65C47DFD6E243724A83603F3;
+			remoteInfo = dynamic;
+		};
+		F2C2438625E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D025E39C79E3E119D19686C;
+			remoteInfo = static;
+		};
+		F2C2438825E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBAFC67A0C213E83BC2E072C;
+			remoteInfo = adv;
+		};
+		F2C2438A25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 81122210DB7A350983E32AEC;
+			remoteInfo = aui;
+		};
+		F2C2438C25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7FDC84691ED63A1282591A89;
+			remoteInfo = base;
+		};
+		F2C2438E25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1AA14D7251A30ACB5E66678;
+			remoteInfo = core;
+		};
+		F2C2439025E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F2153BF3F4EC31D29311D5C1;
+			remoteInfo = gl;
+		};
+		F2C2439225E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9F65758E0363AF9AEC59A47;
+			remoteInfo = html;
+		};
+		F2C2439425E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3680FF98D7B3C73BACA0455;
+			remoteInfo = media;
+		};
+		F2C2439625E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 966AA1B230CA3EFCB1260D80;
+			remoteInfo = net;
+		};
+		F2C2439825E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B6ED047C60AA3CB48A74FBCA;
+			remoteInfo = propgrid;
+		};
+		F2C2439A25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7250869AA793A8B8E19638C;
+			remoteInfo = qa;
+		};
+		F2C2439C25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5087B8648AF03FE99D97D14F;
+			remoteInfo = ribbon;
+		};
+		F2C2439E25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5DCF113E8AD37D8BA26E8BB;
+			remoteInfo = richtext;
+		};
+		F2C243A025E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 22636000460133C8B517AA95;
+			remoteInfo = stc;
+		};
+		F2C243A225E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AFA1A09CC0ED31A7B5285AEC;
+			remoteInfo = webview;
+		};
+		F2C243A425E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FE40C0874B83EE2BC981A1C;
+			remoteInfo = wxexpat;
+		};
+		F2C243A625E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE22393DB53C3D259DFCEE64;
+			remoteInfo = wxjpeg;
+		};
+		F2C243A825E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D78E858CE339374FAC0B1401;
+			remoteInfo = wxpng;
+		};
+		F2C243AA25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AD4A752750F3200A6C3BE59;
+			remoteInfo = wxregex;
+		};
+		F2C243AC25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 678A2947139C36ED8845FA97;
+			remoteInfo = wxscintilla;
+		};
+		F2C243AE25E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A06507F3AA1A32C0AE14AC26;
+			remoteInfo = wxtiff;
+		};
+		F2C243B025E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB355C2107A835E5B8F15C29;
+			remoteInfo = wxzlib;
+		};
+		F2C243B225E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C6CC76872BA32D2B61EB8AB;
+			remoteInfo = xml;
+		};
+		F2C243B425E6276300AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 604D9B79D41F32339AEC0EA0;
+			remoteInfo = xrc;
+		};
+		F2C243B625E6277200AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 363401F972C53D8EBD3D4BD9;
+			remoteInfo = dynamic;
+		};
+		F2C243B825E6277800AE0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BAB02EC06578349A9171CCAC;
+			remoteInfo = static;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		405B1A9410EF209B00676938 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F2C243BA25E627A500AE0021 /* libwx_osx_cocoa.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		405B1ACB10EF253300676938 /* Firmata Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firmata Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Firmata Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firmata Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = wxcocoa.xcodeproj; path = "../wxWidgets-3.1.4/build/osx/wxcocoa.xcodeproj"; sourceTree = "<group>"; };
+		F2C2443125E6437100AE0021 /* wxdebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = wxdebug.xcconfig; path = "../wxWidgets-3.1.4/build/osx/wxdebug.xcconfig"; sourceTree = "<group>"; };
+		F2C2443225E6437200AE0021 /* wxrelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = wxrelease.xcconfig; path = "../wxWidgets-3.1.4/build/osx/wxrelease.xcconfig"; sourceTree = "<group>"; };
+		F2C2443325E6437200AE0021 /* wxcocoa.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = wxcocoa.xcconfig; path = "../wxWidgets-3.1.4/build/osx/wxcocoa.xcconfig"; sourceTree = "<group>"; };
+		F2C2444E25E6450700AE0021 /* serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = serial.h; path = firmata_test/serial.h; sourceTree = "<group>"; };
+		F2C2444F25E6450700AE0021 /* firmata_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = firmata_test.h; path = firmata_test/firmata_test.h; sourceTree = "<group>"; };
+		F2C2445025E6450700AE0021 /* serial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = serial.cpp; path = firmata_test/serial.cpp; sourceTree = "<group>"; };
+		F2C2445125E6450800AE0021 /* firmata_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = firmata_test.cpp; path = firmata_test/firmata_test.cpp; sourceTree = "<group>"; };
+		F2C2446D25E645E700AE0021 /* Firmata Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Firmata Test.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405B1AC410EF253300676938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C243BD25E62ABE00AE0021 /* libwx_osx_cocoa_static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C243BC25E6296800AE0021 /* libwx_osx_cocoa.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Firmata Test.app */,
+				405B1ACB10EF253300676938 /* Firmata Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* minimal_cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */,
+				F2C2443325E6437200AE0021 /* wxcocoa.xcconfig */,
+				F2C2443125E6437100AE0021 /* wxdebug.xcconfig */,
+				F2C2443225E6437200AE0021 /* wxrelease.xcconfig */,
+				F2C2446D25E645E700AE0021 /* Firmata Test.plist */,
+				405B1A9710EF227D00676938 /* firmata_test */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F2C243BB25E6296800AE0021 /* Frameworks */,
+			);
+			name = minimal_cocoa;
+			sourceTree = "<group>";
+		};
+		405B1A9710EF227D00676938 /* firmata_test */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2445125E6450800AE0021 /* firmata_test.cpp */,
+				F2C2444F25E6450700AE0021 /* firmata_test.h */,
+				F2C2445025E6450700AE0021 /* serial.cpp */,
+				F2C2444E25E6450700AE0021 /* serial.h */,
+			);
+			name = firmata_test;
+			sourceTree = "<group>";
+		};
+		F2C2436825E6276200AE0021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2438525E6276300AE0021 /* libwx_osx_cocoa.dylib */,
+				F2C2438725E6276300AE0021 /* libwx_osx_cocoa_static.a */,
+				F2C2438925E6276300AE0021 /* libwx_osx_cocoau_adv.dylib */,
+				F2C2438B25E6276300AE0021 /* libwx_osx_cocoau_aui.dylib */,
+				F2C2438D25E6276300AE0021 /* libwx_baseu.dylib */,
+				F2C2438F25E6276300AE0021 /* libwx_osx_cocoau_core.dylib */,
+				F2C2439125E6276300AE0021 /* libwx_osx_cocoau_gl.dylib */,
+				F2C2439325E6276300AE0021 /* libwx_osx_cocoau_html.dylib */,
+				F2C2439525E6276300AE0021 /* libwx_osx_cocoau_media.dylib */,
+				F2C2439725E6276300AE0021 /* libwx_baseu_net.dylib */,
+				F2C2439925E6276300AE0021 /* libwx_osx_cocoau_propgrid.dylib */,
+				F2C2439B25E6276300AE0021 /* libwx_osx_cocoau_qa.dylib */,
+				F2C2439D25E6276300AE0021 /* libwx_osx_cocoau_ribbon.dylib */,
+				F2C2439F25E6276300AE0021 /* libwx_osx_cocoau_richtext.dylib */,
+				F2C243A125E6276300AE0021 /* libwx_osx_cocoau_stc.dylib */,
+				F2C243A325E6276300AE0021 /* libwx_osx_cocoa_webview.dylib */,
+				F2C243A525E6276300AE0021 /* libwxexpat.a */,
+				F2C243A725E6276300AE0021 /* libwxjpeg.a */,
+				F2C243A925E6276300AE0021 /* libwxpng.a */,
+				F2C243AB25E6276300AE0021 /* libwxregex.a */,
+				F2C243AD25E6276300AE0021 /* libwxscintilla..a */,
+				F2C243AF25E6276300AE0021 /* libwxtiff.a */,
+				F2C243B125E6276300AE0021 /* libwxzlib.a */,
+				F2C243B325E6276300AE0021 /* libwx_baseu_xml.dylib */,
+				F2C243B525E6276300AE0021 /* libwx_osx_cocoau_xrc.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C243BB25E6296800AE0021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405B1ABF10EF253300676938 /* app-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405B1AC810EF253300676938 /* Build configuration list for PBXNativeTarget "app-static" */;
+			buildPhases = (
+				405B1AC210EF253300676938 /* Sources */,
+				405B1AC410EF253300676938 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C243B925E6277800AE0021 /* PBXTargetDependency */,
+			);
+			name = "app-static";
+			productInstallPath = "$(HOME)/Applications";
+			productName = minimal_cocoa;
+			productReference = 405B1ACB10EF253300676938 /* Firmata Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* app-dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "app-dynamic" */;
+			buildPhases = (
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				405B1A9410EF209B00676938 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C243B725E6277200AE0021 /* PBXTargetDependency */,
+			);
+			name = "app-dynamic";
+			productInstallPath = "$(HOME)/Applications";
+			productName = minimal_cocoa;
+			productReference = 8D1107320486CEB800E47090 /* Firmata Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Firmata Test" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* minimal_cocoa */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F2C2436825E6276200AE0021 /* Products */;
+					ProjectRef = F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* app-dynamic */,
+				405B1ABF10EF253300676938 /* app-static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F2C2438525E6276300AE0021 /* libwx_osx_cocoa.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoa.dylib;
+			remoteRef = F2C2438425E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2438725E6276300AE0021 /* libwx_osx_cocoa_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwx_osx_cocoa_static.a;
+			remoteRef = F2C2438625E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2438925E6276300AE0021 /* libwx_osx_cocoau_adv.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_adv.dylib;
+			remoteRef = F2C2438825E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2438B25E6276300AE0021 /* libwx_osx_cocoau_aui.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_aui.dylib;
+			remoteRef = F2C2438A25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2438D25E6276300AE0021 /* libwx_baseu.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_baseu.dylib;
+			remoteRef = F2C2438C25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2438F25E6276300AE0021 /* libwx_osx_cocoau_core.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_core.dylib;
+			remoteRef = F2C2438E25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439125E6276300AE0021 /* libwx_osx_cocoau_gl.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_gl.dylib;
+			remoteRef = F2C2439025E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439325E6276300AE0021 /* libwx_osx_cocoau_html.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_html.dylib;
+			remoteRef = F2C2439225E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439525E6276300AE0021 /* libwx_osx_cocoau_media.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_media.dylib;
+			remoteRef = F2C2439425E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439725E6276300AE0021 /* libwx_baseu_net.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_baseu_net.dylib;
+			remoteRef = F2C2439625E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439925E6276300AE0021 /* libwx_osx_cocoau_propgrid.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_propgrid.dylib;
+			remoteRef = F2C2439825E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439B25E6276300AE0021 /* libwx_osx_cocoau_qa.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_qa.dylib;
+			remoteRef = F2C2439A25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439D25E6276300AE0021 /* libwx_osx_cocoau_ribbon.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_ribbon.dylib;
+			remoteRef = F2C2439C25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C2439F25E6276300AE0021 /* libwx_osx_cocoau_richtext.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_richtext.dylib;
+			remoteRef = F2C2439E25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243A125E6276300AE0021 /* libwx_osx_cocoau_stc.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_stc.dylib;
+			remoteRef = F2C243A025E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243A325E6276300AE0021 /* libwx_osx_cocoa_webview.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoa_webview.dylib;
+			remoteRef = F2C243A225E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243A525E6276300AE0021 /* libwxexpat.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwxexpat.a;
+			remoteRef = F2C243A425E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243A725E6276300AE0021 /* libwxjpeg.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwxjpeg.a;
+			remoteRef = F2C243A625E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243A925E6276300AE0021 /* libwxpng.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwxpng.a;
+			remoteRef = F2C243A825E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243AB25E6276300AE0021 /* libwxregex.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwxregex.a;
+			remoteRef = F2C243AA25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243AD25E6276300AE0021 /* libwxscintilla..a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwxscintilla..a;
+			remoteRef = F2C243AC25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243AF25E6276300AE0021 /* libwxtiff.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwxtiff.a;
+			remoteRef = F2C243AE25E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243B125E6276300AE0021 /* libwxzlib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwxzlib.a;
+			remoteRef = F2C243B025E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243B325E6276300AE0021 /* libwx_baseu_xml.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_baseu_xml.dylib;
+			remoteRef = F2C243B225E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F2C243B525E6276300AE0021 /* libwx_osx_cocoau_xrc.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_osx_cocoau_xrc.dylib;
+			remoteRef = F2C243B425E6276300AE0021 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405B1AC210EF253300676938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2446E25E6460700AE0021 /* firmata_test.cpp in Sources */,
+				F2C2446F25E6460900AE0021 /* serial.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2445325E6450800AE0021 /* firmata_test.cpp in Sources */,
+				F2C2445225E6450800AE0021 /* serial.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2C243B725E6277200AE0021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dynamic;
+			targetProxy = F2C243B625E6277200AE0021 /* PBXContainerItemProxy */;
+		};
+		F2C243B925E6277800AE0021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = static;
+			targetProxy = F2C243B825E6277800AE0021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		405B1AC910EF253300676938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2443125E6437100AE0021 /* wxdebug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = Firmata_Test.entitlements;
+				CURRENT_PROJECT_VERSION = 0001;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Firmata Test.plist";
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.troikatronix.firmata-test";
+				PRODUCT_NAME = "Firmata Test";
+				USER_HEADER_SEARCH_PATHS = "\"$(WXROOT)/include\" \"$(WXROOT)/samples/minimal\" \"$(WXROOT)/build/osx\" \"$(WXROOT)/build/osx/setup/$(WXTOOLKIT)/include\" \"$(WXROOT)/src/zlib\" \"$(WXROOT)/src/jpeg\" \"$(WXROOT)/src/png\" \"$(WXROOT)/src/expat/expat/lib\" \"$(WXROOT)/src/tiff/libtiff\" \"$(WXROOT)/src/stc/scintilla/src\" \"$(WXROOT)/src/stc/scintilla/include\" \"$(WXROOT)/src/stc/scintilla/lexlib\"";
+			};
+			name = Debug;
+		};
+		405B1ACA10EF253300676938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2443225E6437200AE0021 /* wxrelease.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = Firmata_Test.entitlements;
+				CURRENT_PROJECT_VERSION = 0001;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Firmata Test.plist";
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.troikatronix.firmata-test";
+				PRODUCT_NAME = "Firmata Test";
+				USER_HEADER_SEARCH_PATHS = "\"$(WXROOT)/include\" \"$(WXROOT)/samples/minimal\" \"$(WXROOT)/build/osx\" \"$(WXROOT)/build/osx/setup/$(WXTOOLKIT)/include\" \"$(WXROOT)/src/zlib\" \"$(WXROOT)/src/jpeg\" \"$(WXROOT)/src/png\" \"$(WXROOT)/src/expat/expat/lib\" \"$(WXROOT)/src/tiff/libtiff\" \"$(WXROOT)/src/stc/scintilla/src\" \"$(WXROOT)/src/stc/scintilla/include\" \"$(WXROOT)/src/stc/scintilla/lexlib\"";
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2443125E6437100AE0021 /* wxdebug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = Firmata_Test.entitlements;
+				CURRENT_PROJECT_VERSION = 0001;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Firmata Test.plist";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.troikatronix.firmata-test";
+				PRODUCT_NAME = "Firmata Test";
+				USER_HEADER_SEARCH_PATHS = "\"$(WXROOT)/include\" \"$(WXROOT)/samples/minimal\" \"$(WXROOT)/build/osx\" \"$(WXROOT)/build/osx/setup/$(WXTOOLKIT)/include\"";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2443225E6437200AE0021 /* wxrelease.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = Firmata_Test.entitlements;
+				CURRENT_PROJECT_VERSION = 0001;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Firmata Test.plist";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.troikatronix.firmata-test";
+				PRODUCT_NAME = "Firmata Test";
+				USER_HEADER_SEARCH_PATHS = "\"$(WXROOT)/include\" \"$(WXROOT)/samples/minimal\" \"$(WXROOT)/build/osx\" \"$(WXROOT)/build/osx/setup/$(WXTOOLKIT)/include\"";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2443325E6437200AE0021 /* wxcocoa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Firmata_Test.entitlements;
+				INFOPLIST_FILE = "Firmata Test.plist";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				WXROOT = "$(PROJECT_DIR)/../wxWidgets-3.1.4";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2443325E6437200AE0021 /* wxcocoa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Firmata_Test.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				INFOPLIST_FILE = "Firmata Test.plist";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				WXROOT = "$(PROJECT_DIR)/../wxWidgets-3.1.4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405B1AC810EF253300676938 /* Build configuration list for PBXNativeTarget "app-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405B1AC910EF253300676938 /* Debug */,
+				405B1ACA10EF253300676938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "app-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Firmata Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
