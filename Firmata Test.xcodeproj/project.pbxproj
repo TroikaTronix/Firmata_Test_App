@@ -224,6 +224,7 @@
 /* Begin PBXFileReference section */
 		405B1ACB10EF253300676938 /* Firmata Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firmata Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1107320486CEB800E47090 /* Firmata Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firmata Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F215388325EA2EB4004D4AB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F2C2436725E6276200AE0021 /* wxcocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = wxcocoa.xcodeproj; path = "../wxWidgets-3.1.4/build/osx/wxcocoa.xcodeproj"; sourceTree = "<group>"; };
 		F2C2443125E6437100AE0021 /* wxdebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = wxdebug.xcconfig; path = "../wxWidgets-3.1.4/build/osx/wxdebug.xcconfig"; sourceTree = "<group>"; };
 		F2C2443225E6437200AE0021 /* wxrelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = wxrelease.xcconfig; path = "../wxWidgets-3.1.4/build/osx/wxrelease.xcconfig"; sourceTree = "<group>"; };
@@ -272,6 +273,7 @@
 				F2C2443125E6437100AE0021 /* wxdebug.xcconfig */,
 				F2C2443225E6437200AE0021 /* wxrelease.xcconfig */,
 				F2C2446D25E645E700AE0021 /* Firmata Test.plist */,
+				F215388325EA2EB4004D4AB3 /* README.md */,
 				405B1A9710EF227D00676938 /* firmata_test */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				F2C243BB25E6296800AE0021 /* Frameworks */,

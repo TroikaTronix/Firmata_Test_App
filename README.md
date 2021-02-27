@@ -6,7 +6,7 @@ Updated for macOS Catalina and Later
 
 This project allows you to compile the original [Firmata Test app](https://github.com/firmata/firmata_test/) by Jeff Hoefs and Dominik Stadler so that it will run on generate a "hardened runtime" that will run on macOS Catalina and later.
 
-Like the original Firmata Test App, this project relies on [wxWidgits v3.1.4](https://www.wxwidgets.org/downloads/).
+Like the original Firmata Test App, this project relies on wxWidgits, specifically [wxWidgits v3.1.4](https://www.wxwidgets.org/downloads/).
 
 To successfully compile this project, please arrange the project folders as follows:
 
